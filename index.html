@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="oop-logic.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/favicon.ico.ico" type="image/x-icon">
+    <title>Heroes Fight Game</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">Heroes Fight</div>
+        <div class="btns-container">
+            <button class="btn" id="show-heros-btn">Show heroes</button>
+            <button class="btn" id="start-fight-btn">Start fight</button>
+        </div>
+        <div class="heroes-container" id="heroes-container">
+            <div class="hero-container">
+                <div class="hero-avatar">
+                    <img class="hero-avatar-img" src="assets/gif/dwarf.gif.gif" alt="Gimli" width="200px"
+                        height="180px">
+                </div>
+                <span class="hero-name">Gimli</span>
+                <div class="hero-details-container">
+                    <span>50 XP</span>
+                    <span>Can`t Fly</span>
+                    <span>Has Shield</span>
+                </div>
+            </div>
+            <div class="hero-container">
+                <div class="hero-avatar">
+                    <img class="hero-avatar-img" src="assets/gif/misandei.gif.gif" alt="Misandei" width="200px"
+                        height="180px">
+                </div>
+                <span class="hero-name">Misandei</span>
+                <div class="hero-details-container">
+                    <span>40 XP</span>
+                    <span>Can Fly</span>
+                    <span>Hasn`t Shield</span>
+                </div>
+            </div>
+            <div class="hero-container">
+                <div class="hero-avatar">
+                    <img class="hero-avatar-img" src="/assets/gif/drogon.gif.gif" alt="Drogon" width="200px"
+                        height="180px">
+                </div>
+                <span class="hero-name">Drogon</span>
+                <div class="hero-details-container">
+                    <span>60 XP</span>
+                    <span>Can Fly</span>
+                    <span>Has Shield</span>
+                </div>
+            </div>
+        </div>
+        <div id="show-winner"></div>
+        <button id="restart-game">Restart Game</button>
+    </div>
+    <script src="main.js" defer></script>
+</body>
+
+</html>
